@@ -1,0 +1,21 @@
+@echo off
+cls
+echo Netzlaufwerke werden verbunden...
+REM net use h: \\10.0.0.251\home
+REM pause
+
+rem windows 11 autostart: user		--> shell:startup
+rem			            : alluser	--> shell:common startup
+
+REM net use z: /d
+REM net use z: \\10.0.0.251\ /persistent:no /user:10.0.0.251\
+
+REM ds
+net use h: /d
+net use j: /d
+net use n: /d
+net use r: /d
+net use t: /d
+net use p: /d
+net use o: /d
+net use x: /d
